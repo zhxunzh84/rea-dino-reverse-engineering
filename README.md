@@ -1,5 +1,7 @@
 # Reverse Engineering a Browser Game with REA & Codex
 
+[![Featured by Awesome REA](https://raw.githubusercontent.com/reacher-z/Awesome-REA/477658fa73f6860e86cd1fc526657c2efdc25194/assets/featured-by-awesome-rea-inline.svg)](https://awesomerea.org/resources/rea-dino-runner-community-case/)
+
 A small software investigation turned into a playable, self-contained dinosaur runner. REA inspected the JavaScript loaded by an existing browser page through Chrome DevTools Protocol (CDP); Codex used the findings to build an independent HTML5 Canvas implementation and regression tests.
 
 The project was built to practice evidence-based investigation, precise behavioral reconstruction, and validation of AI-assisted code. Its central example is subtle: movement uses elapsed time, but speed increases once per eligible update. Preserving that distinction matters more than matching the original appearance.
